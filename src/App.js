@@ -5,11 +5,13 @@ import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import Subscribe from './components/Subscribe';
 import Count from './components/Count';
+import EventHandlers from './components/EventHandlers';
 
 function App() {
   return (
     <div className="App">
-      <Count></Count>
+      <EventHandlers></EventHandlers>
+      {/* <Count></Count> */}
       {/* <Subscribe></Subscribe> */}
       {/* <Greet name="Bruce" heroName="Batman">
         <p>This is the children</p>
