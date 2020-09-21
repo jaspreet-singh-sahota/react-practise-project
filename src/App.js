@@ -13,7 +13,9 @@ function App() {
       <Greet name="Clark" heroName="Superman">
         <button>Click</button>
       </Greet>
-      <Welcome />
+      <Welcome name="Bruce" heroName="Batman">
+        <button>Click</button>
+      </Welcome>
       <Welcome />
     </div>
   );
