@@ -6,11 +6,13 @@ import Welcome from './components/Welcome';
 import Subscribe from './components/Subscribe';
 import Count from './components/Count';
 import EventHandlers from './components/EventHandlers';
+import ParentComponent from './components/ParentComponent';
 
 function App() {
   return (
     <div className="App">
-      <EventHandlers></EventHandlers>
+      <ParentComponent></ParentComponent>
+      {/* <EventHandlers></EventHandlers> */}
       {/* <Count></Count> */}
       {/* <Subscribe></Subscribe> */}
       {/* <Greet name="Bruce" heroName="Batman">
