@@ -11,11 +11,22 @@ import ParentComponent from './components/ParentComponent';
 import LifeCycleA from './components/LifeCycleA';
 import FragmentDemo from './components/FragmentDemo';
 import FocusedInputField from './components/FocusedInputField';
+import SuperHeros from './components/SuperHeros';
+import ErrorBoundary from './components/ErrorBoundary';
 
 function App() {
   return (
     <div className="App">
-      <FocusedInputField></FocusedInputField>
+      <ErrorBoundary>
+        <SuperHeros superHero={'Batman'} />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <SuperHeros superHero={'Superman'} />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <SuperHeros superHero={'Joker'} />
+      </ErrorBoundary>
+      {/* <FocusedInputField></FocusedInputField> */}
       {/* <FragmentDemo></FragmentDemo> */}
       {/* <LifeCycleA></LifeCycleA> */}
       {/* <ParentComponent></ParentComponent> */}
