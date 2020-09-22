@@ -13,11 +13,13 @@ import FragmentDemo from './components/FragmentDemo';
 import FocusedInputField from './components/FocusedInputField';
 import SuperHeros from './components/SuperHeros';
 import ErrorBoundary from './components/ErrorBoundary';
+import Hover from './components/Hover';
+import RenderProps from './components/RenderProps';
 
 function App() {
   return (
     <div className="App">
-      <ErrorBoundary>
+      {/* <ErrorBoundary>
         <SuperHeros superHero={'Batman'} />
       </ErrorBoundary>
       <ErrorBoundary>
@@ -25,13 +27,14 @@ function App() {
       </ErrorBoundary>
       <ErrorBoundary>
         <SuperHeros superHero={'Joker'} />
-      </ErrorBoundary>
+      </ErrorBoundary> */}
       {/* <FocusedInputField></FocusedInputField> */}
       {/* <FragmentDemo></FragmentDemo> */}
       {/* <LifeCycleA></LifeCycleA> */}
       {/* <ParentComponent></ParentComponent> */}
       {/* <EventHandlers></EventHandlers> */}
-      {/* <Count></Count> */}
+      <RenderProps render={(count, incrementCount) => (<Count count={count} incrementCount={incrementCount}></Count>)}/>
+      <RenderProps render={(count, incrementCount) => (<Hover count={count} incrementCount={incrementCount}></Hover>)}/>
       {/* <Subscribe></Subscribe> */}
       {/* <Greet name="Bruce" heroName="Batman">
         <p>This is the children</p>
