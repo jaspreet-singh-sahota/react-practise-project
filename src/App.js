@@ -9,11 +9,13 @@ import EventHandlers from './components/EventHandlers';
 import ParentComponent from './components/ParentComponent';
 // import FormComponent from './components/LifeCycleA';
 import LifeCycleA from './components/LifeCycleA';
+import FragmentDemo from './components/FragmentDemo';
 
 function App() {
   return (
     <div className="App">
-      <LifeCycleA></LifeCycleA>
+      <FragmentDemo></FragmentDemo>
+      {/* <LifeCycleA></LifeCycleA> */}
       {/* <ParentComponent></ParentComponent> */}
       {/* <EventHandlers></EventHandlers> */}
       {/* <Count></Count> */}
