@@ -7,12 +7,13 @@ import Subscribe from './components/Subscribe';
 import Count from './components/Count';
 import EventHandlers from './components/EventHandlers';
 import ParentComponent from './components/ParentComponent';
-import FormComponent from './components/Form';
+// import FormComponent from './components/LifeCycleA';
+import LifeCycleA from './components/LifeCycleA';
 
 function App() {
   return (
     <div className="App">
-      <FormComponent></FormComponent>
+      <LifeCycleA></LifeCycleA>
       {/* <ParentComponent></ParentComponent> */}
       {/* <EventHandlers></EventHandlers> */}
       {/* <Count></Count> */}
