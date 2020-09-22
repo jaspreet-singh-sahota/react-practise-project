@@ -7,11 +7,13 @@ import Subscribe from './components/Subscribe';
 import Count from './components/Count';
 import EventHandlers from './components/EventHandlers';
 import ParentComponent from './components/ParentComponent';
+import FormComponent from './components/Form';
 
 function App() {
   return (
     <div className="App">
-      <ParentComponent></ParentComponent>
+      <FormComponent></FormComponent>
+      {/* <ParentComponent></ParentComponent> */}
       {/* <EventHandlers></EventHandlers> */}
       {/* <Count></Count> */}
       {/* <Subscribe></Subscribe> */}
