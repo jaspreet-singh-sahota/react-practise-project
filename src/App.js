@@ -24,11 +24,13 @@ import UseEffect1 from './components/UseEffect';
 import HookMouse from './components/HookMouse';
 import MouseContainer from './components/MouseContainer';
 import HookTick from './components/HookTick';
+import HookFetchData from './components/HookFetchData';
 
 function App() {
   return (
     <div className="App">
-      <HookTick/>
+      <HookFetchData/>
+      {/* <HookTick/> */}
       {/* <MouseContainer/> */}
       {/* <HookMouse></HookMouse> */}
       {/* <UseEffect1/> */}
