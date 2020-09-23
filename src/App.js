@@ -25,11 +25,13 @@ import HookMouse from './components/HookMouse';
 import MouseContainer from './components/MouseContainer';
 import HookTick from './components/HookTick';
 import HookFetchData from './components/HookFetchData';
+import UseReducerHook from './components/UseReducerHook';
 
 function App() {
   return (
     <div className="App">
-      <HookFetchData/>
+      <UseReducerHook/>
+      {/* <HookFetchData/> */}
       {/* <HookTick/> */}
       {/* <MouseContainer/> */}
       {/* <HookMouse></HookMouse> */}
