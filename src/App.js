@@ -18,11 +18,13 @@ import RenderProps from './components/RenderProps';
 import PostList from './components/PostList';
 import PostResquest from './components/PostResquest';
 import CountHooks2 from './components/CountHooks2';
+import FormHook from './components/FormHook';
 
 function App() {
   return (
     <div className="App">
-      <CountHooks2/>
+      <FormHook></FormHook>
+      {/* <CountHooks2/> */}
       {/* <PostResquest></PostResquest> */}
       {/* <PostList></PostList> */}
       {/* <ErrorBoundary>
