@@ -8,7 +8,7 @@ class ParentComponent extends Component {
     this.state = {
        parent: 'parent'
     }
-
+    
     this.clickHandler = this.clickHandler.bind(this)
   }
 
