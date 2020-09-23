@@ -21,11 +21,13 @@ import CountHooks2 from './components/CountHooks2';
 import FormHook from './components/FormHook';
 import HooksArray from './components/HooksArray';
 import UseEffect1 from './components/UseEffect';
+import HookMouse from './components/HookMouse';
 
 function App() {
   return (
     <div className="App">
-      <UseEffect1/>
+      <HookMouse></HookMouse>
+      {/* <UseEffect1/> */}
       {/* <HooksArray></HooksArray> */}
       {/* <FormHook></FormHook> */}
       {/* <CountHooks2/> */}
