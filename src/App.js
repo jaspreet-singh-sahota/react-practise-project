@@ -20,11 +20,13 @@ import PostResquest from './components/PostResquest';
 import CountHooks2 from './components/CountHooks2';
 import FormHook from './components/FormHook';
 import HooksArray from './components/HooksArray';
+import UseEffect1 from './components/UseEffect';
 
 function App() {
   return (
     <div className="App">
-      <HooksArray></HooksArray>
+      <UseEffect1/>
+      {/* <HooksArray></HooksArray> */}
       {/* <FormHook></FormHook> */}
       {/* <CountHooks2/> */}
       {/* <PostResquest></PostResquest> */}
