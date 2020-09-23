@@ -19,11 +19,13 @@ import PostList from './components/PostList';
 import PostResquest from './components/PostResquest';
 import CountHooks2 from './components/CountHooks2';
 import FormHook from './components/FormHook';
+import HooksArray from './components/HooksArray';
 
 function App() {
   return (
     <div className="App">
-      <FormHook></FormHook>
+      <HooksArray></HooksArray>
+      {/* <FormHook></FormHook> */}
       {/* <CountHooks2/> */}
       {/* <PostResquest></PostResquest> */}
       {/* <PostList></PostList> */}
