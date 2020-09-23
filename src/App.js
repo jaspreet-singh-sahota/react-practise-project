@@ -17,11 +17,13 @@ import Hover from './components/Hover';
 import RenderProps from './components/RenderProps';
 import PostList from './components/PostList';
 import PostResquest from './components/PostResquest';
+import CountHooks from './components/CountHooks';
 
 function App() {
   return (
     <div className="App">
-      <PostResquest></PostResquest>
+      <CountHooks/>
+      {/* <PostResquest></PostResquest> */}
       {/* <PostList></PostList> */}
       {/* <ErrorBoundary>
         <SuperHeros superHero={'Batman'} />
