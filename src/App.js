@@ -17,12 +17,12 @@ import Hover from './components/Hover';
 import RenderProps from './components/RenderProps';
 import PostList from './components/PostList';
 import PostResquest from './components/PostResquest';
-import CountHooks from './components/CountHooks';
+import CountHooks2 from './components/CountHooks2';
 
 function App() {
   return (
     <div className="App">
-      <CountHooks/>
+      <CountHooks2/>
       {/* <PostResquest></PostResquest> */}
       {/* <PostList></PostList> */}
       {/* <ErrorBoundary>
