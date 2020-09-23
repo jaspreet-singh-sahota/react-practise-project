@@ -5,13 +5,13 @@ const initialState = {
   secondValue: 0
 }
 const reducer = (state = initialState , action) => {
-  switch (action.type) {
-    case 'increment':
-      return { ...state, firstValue: state.firstValue + action.value}
+  switch (action) {
+    case "increment":
+      return state += 1
     case "decrement":
-      return {...state, secondValue: state.secondValue + action.value}
+      return state -= 1
     case "reset":
-      return initialState
+      return state = 0
   
     default: return state
   }
@@ -22,12 +22,9 @@ const UseReducerHook = () => {
   const [count, dispatch] = useReducer(reducer, initialState)
   return (
     <div>
-      <div>Count:- {count.firstValue}</div>
-      <div>Count:- {count.secondValue}</div>
-      <button onClick={() => dispatch({type:'increment', value: 1})}>Increment</button>
-      <button onClick={() => dispatch({type:'decrement', value: 1})}>Decrement</button>
-      <button onClick={() => dispatch({type:'increment', value: 5})}>Increment 5</button>
-      <button onClick={() => dispatch({type:'decrement', value: 5})}>Decrement 5</button>
+      <div>Count:- {count}</div>
+      <button onClick={() => dispatch('increment')}>Increment</button>
+      <button onClick={() => dispatch('decrement')}>Decrement</button>
       <button onClick={() => dispatch('reset')}>Reset</button>
     </div>
   )
