@@ -31,12 +31,14 @@ import FocusInput from './components/FocusInput';
 import UseRefTick from './components/UseRefTick';
 import Icons from './practical-components/Icons';
 import ToastBox from './practical-components/Toast';
+import ModalExapmle from './practical-components/ModalExapmle';
 
 function App() {
   return (
     <div className="App">
-      <Icons/>
-      <ToastBox/>
+      <ModalExapmle/>
+      {/* <Icons/> */}
+      {/* <ToastBox/> */}
       {/* <UseRefTick/> */}
       {/* <FocusInput/> */}
       {/* <MultipleUseReducers/> */}
