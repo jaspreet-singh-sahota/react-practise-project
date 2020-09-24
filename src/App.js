@@ -33,11 +33,13 @@ import Icons from './practical-components/Icons';
 import ToastBox from './practical-components/Toast';
 import ModalExapmle from './practical-components/ModalExapmle';
 import ToolTipExpample from './practical-components/ToolTipExpample';
+import CountUpExample from './practical-components/CountUpExample';
 
 function App() {
   return (
     <div className="App">
-      <ToolTipExpample/>
+      <CountUpExample/>
+      {/* <ToolTipExpample/> */}
       {/* <ModalExapmle/> */}
       {/* <Icons/> */}
       {/* <ToastBox/> */}
