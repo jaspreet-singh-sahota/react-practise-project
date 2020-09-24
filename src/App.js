@@ -29,11 +29,13 @@ import UseReducerHook from './components/UseReducerHook';
 import MultipleUseReducers from './components/MultipleUseReducers';
 import FocusInput from './components/FocusInput';
 import UseRefTick from './components/UseRefTick';
+import Icons from './practical-components/Icons';
 
 function App() {
   return (
     <div className="App">
-      <UseRefTick/>
+      <Icons/>
+      {/* <UseRefTick/> */}
       {/* <FocusInput/> */}
       {/* <MultipleUseReducers/> */}
       {/* <UseReducerHook/> */}
