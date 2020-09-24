@@ -32,11 +32,13 @@ import UseRefTick from './components/UseRefTick';
 import Icons from './practical-components/Icons';
 import ToastBox from './practical-components/Toast';
 import ModalExapmle from './practical-components/ModalExapmle';
+import ToolTipExpample from './practical-components/ToolTipExpample';
 
 function App() {
   return (
     <div className="App">
-      <ModalExapmle/>
+      <ToolTipExpample/>
+      {/* <ModalExapmle/> */}
       {/* <Icons/> */}
       {/* <ToastBox/> */}
       {/* <UseRefTick/> */}
