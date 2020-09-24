@@ -28,11 +28,13 @@ import HookFetchData from './components/HookFetchData';
 import UseReducerHook from './components/UseReducerHook';
 import MultipleUseReducers from './components/MultipleUseReducers';
 import FocusInput from './components/FocusInput';
+import UseRefTick from './components/UseRefTick';
 
 function App() {
   return (
     <div className="App">
-      <FocusInput/>
+      <UseRefTick/>
+      {/* <FocusInput/> */}
       {/* <MultipleUseReducers/> */}
       {/* <UseReducerHook/> */}
       {/* <HookFetchData/> */}
